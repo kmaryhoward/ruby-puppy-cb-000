@@ -15,7 +15,7 @@ class Dog
   end
 
   def self.all
-    @@all.collect(&:name)
+    puts @@all.collect(&:name)
   end
 
   def self.clear_all
